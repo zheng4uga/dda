@@ -2,3 +2,9 @@
     background-image:url('../images/drill.jpg');
     background-size:cover;
 }
+.navbar-item img{
+    max-height:3.0rem;
+}
+.navbar-item{
+    padding: 0 0 0 12px;
+}
