@@ -1,0 +1,3 @@
+[submodule "public/bulmaswatch"]
+	path = public/bulmaswatch
+	url = https://github.com/jenil/bulmaswatch.git
