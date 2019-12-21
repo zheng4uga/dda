@@ -11,3 +11,4 @@
 |
 */
 Route::view('/','index');
+Route::get('api/counties','CountyController@allCountry');
