@@ -13,18 +13,22 @@ $(function(){
         callback:{
             onSubmit: function(node, form, item, event){
                 event.preventDefault();
-                console.log(node);
                 const id = item.id;
                 $.ajax({
                     url:'api/county/available/'+id,
                     success:function(data,success){
                         if(success === 'success'){
-                            const message = data.message;
-                            alert(message);
+                            const status = data.status;
+                            const identifer = '.'+status+'-modal';
+                            $(identifer).addClass('is-active');
                         }
                     }
                 });
             }
         }
-    })
+    });
+    
+    $('.modal-close, .ok-btn').on('click',function(){
+        $(this).closest('.modal').removeClass('is-active');
+    });
 });

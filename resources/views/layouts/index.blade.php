@@ -36,5 +36,6 @@
         <footer class="footer">
             @include('common.footer')
         </footer>
+        @include('common.modal')
     </body>
 </html>
