@@ -18,7 +18,12 @@
         <title>@yield('page-title')</title>
         <link href="{{url('bulmaswatch/default/bulmaswatch.min.css')}}" rel="stylesheet" type="text/css" >
         <link href="{{ url('css/fontawesome/all.min.css') }}" rel="stylesheet" type="text/css">  
+        <link href="{{url('css/jquery.typeahead.min.css')}}" rel="stylesheet" type="text/css">
         <link href="{{ url('css/common.css') }}" rel="stylesheet" type="text/css">  
+        
+        <script src="{{ url('js/jquery.min.js')}}" type="text/javascript" ></script>
+        <script src="{{ url('js/jquery.typeahead.min.js')}}" type="text/javascript" ></script>
+        <script src="{{ url('js/home.js')}}" type="text/javascript" ></script>
 
     </head>
     <body>
