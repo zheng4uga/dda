@@ -2,7 +2,6 @@ $(function(){
     $.typeahead({
         input: ".js-typeahead",
         order: "asc",
-        debug: true,
         source: {
             names: {
                 ajax: {
@@ -10,6 +9,22 @@ $(function(){
                 }
             },
         },
-        display:'name'
+        display:'name',
+        callback:{
+            onSubmit: function(node, form, item, event){
+                event.preventDefault();
+                console.log(node);
+                const id = item.id;
+                $.ajax({
+                    url:'api/county/available/'+id,
+                    success:function(data,success){
+                        if(success === 'success'){
+                            const message = data.message;
+                            alert(message);
+                        }
+                    }
+                });
+            }
+        }
     })
 });

@@ -1,3 +1,6 @@
 [submodule "public/bulmaswatch"]
 	path = public/bulmaswatch
 	url = https://github.com/jenil/bulmaswatch.git
+[submodule "public/cms"]
+	path = public/cms
+	url = https://github.com/directus/directus.git
