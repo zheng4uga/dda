@@ -12,3 +12,4 @@
 */
 Route::view('/','index');
 Route::get('api/counties','CountyController@allCountry');
+Route::get('api/county/available/{id}','CountyController@countyAvailable');
