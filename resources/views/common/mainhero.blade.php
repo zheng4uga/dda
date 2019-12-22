@@ -1,8 +1,8 @@
 <section class="hero is-large dda-homepage-hero">
         <div class="hero-body has-text-centered">
             <div class="container">
-                <h1 class="title has-text-weight-bold has-text-white is-uppercase">Directional Drilling Company</h1>
-                <h3 class="subtitle has-text-weight-bold has-text-white is-capitalize">Check if we service your county</h3>
+                <h1 class="title has-text-weight-bold has-text-white is-uppercase is-size-2">Directional Drilling Company</h1>
+                <h3 class="subtitle has-text-weight-bold has-text-white is-capitalize is-size-5">Check if we service your county</h3>
                 <div class="columns">
                     <div class="column is-4 is-offset-4">
                     <form>
