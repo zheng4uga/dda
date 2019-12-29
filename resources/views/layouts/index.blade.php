@@ -17,9 +17,13 @@
         <meta name="og:site_name" content="@yield('og-sitename')">
         <title>@yield('page-title')</title>
         <link href="{{url('bulmaswatch/default/bulmaswatch.min.css')}}" rel="stylesheet" type="text/css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+
         <link href="{{ url('css/fontawesome/all.min.css') }}" rel="stylesheet" type="text/css">  
         <link href="{{url('css/jquery.typeahead.min.css')}}" rel="stylesheet" type="text/css">
-        <link href="{{ url('css/common.css') }}" rel="stylesheet" type="text/css">  
+        <link href="{{ url('css/common.css') }}" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Abel|Gupter|Ibarra+Real+Nova|Oswald&display=swap" rel="stylesheet">
+  
         
         <script src="{{ url('js/jquery.min.js')}}" type="text/javascript" ></script>
         <script src="{{ url('js/jquery.typeahead.min.js')}}" type="text/javascript" ></script>
@@ -37,5 +41,33 @@
             @include('common.footer')
         </footer>
         @include('common.modal')
+
+        <script>
+            $(document).ready(function(){
+                $("#details").toggle();
+                $("#toggle-electrical").on("click", function (){
+                   $("#details").toggle(500);
+                         
+                });
+
+                $("#details2").toggle();
+                $("#toggle-gas").on("click", function (){
+                   $("#details2").toggle(500);
+                         
+                });
+
+                $("#details3").toggle();
+                $("#toggle-endless").on("click", function (){
+                   $("#details3").toggle(500);
+                         
+                });
+
+                $("#details4").toggle();
+                $("#toggle-water").on("click", function (){
+                   $("#details4").toggle(500);
+                         
+                });
+            });
+        </script>
     </body>
 </html>
