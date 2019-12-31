@@ -31,4 +31,9 @@ $(function(){
     $('.modal-close, .ok-btn').on('click',function(){
         $(this).closest('.modal').removeClass('is-active');
     });
+
+    $('.carousel_1').carousel({
+        matchWidth:false       
+       });
+
 });
