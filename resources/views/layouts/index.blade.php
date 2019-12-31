@@ -18,6 +18,9 @@
         <title>@yield('page-title')</title>
         <link href="{{url('bulmaswatch/default/bulmaswatch.min.css')}}" rel="stylesheet" type="text/css" >
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+        <link rel="stylesheet" href="{{url('formstone/dist/css/themes/light.css')}}" type="text/css">        
+
+        <link rel="stylesheet" href="{{url('formstone/dist/css/carousel.css')}}" type="text/css">        
 
         <link href="{{ url('css/fontawesome/all.min.css') }}" rel="stylesheet" type="text/css">  
         <link href="{{url('css/jquery.typeahead.min.css')}}" rel="stylesheet" type="text/css">
@@ -27,6 +30,12 @@
         
         <script src="{{ url('js/jquery.min.js')}}" type="text/javascript" ></script>
         <script src="{{ url('js/jquery.typeahead.min.js')}}" type="text/javascript" ></script>
+        <script src="{{ url('formstone/dist/js/core.js')}}" type="text/javascript"></script>
+        <script src="{{ url('formstone/dist/js/mediaquery.js')}}" type="text/javascript"></script>
+        <script src="{{ url('formstone/dist/js/touch.js')}}" type="text/javascript"></script>
+
+        <script src="{{ url('formstone/dist/js/carousel.js')}}" type="text/javascript"></script>
+
         <script src="{{ url('js/home.js')}}" type="text/javascript" ></script>
 
     </head>

@@ -31,3 +31,21 @@
     font-family:'Oswald', sans-serif;
 
 }
+.carousel_1{
+    max-width:1250px;
+}
+.fs-carousel-wrapper{
+    max-height:700px;
+}
+.carousel_1 .fs-carousel-item {
+    margin:0px 5px 0px 5px;
+}
+.carousel_1 img{
+    max-height:700px;
+}
+.carousel_1 .fs-carousel-item_previous, .carousel_1 .fs-carousel-item_next{
+    opacity:0.3
+}
+.fs-carousel-viewport{
+    background-color:#000;
+}

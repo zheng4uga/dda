@@ -50,7 +50,7 @@
 <div class='hero has-background-grey-lighter'>
     <div class="hero-body">
         <div class="control">
-            <div class="columns is-mobile">
+            <div class="columns">
                 <div class="column is-3">
                     <h1 class="title has-text-centered big-boy is-size-2">WHO WE ARE</h1>
                 </div>
@@ -78,12 +78,17 @@
     <div class="hero has-background-dark">
         <div class="hero-body">
             <div class="control">
-                <div class="columns is-mobile">
-                <div class="column is-9">
+                <div class="columns">
+                    <div class="column">
+                        <h1 class="title has-text-light has-text-centered big-boy is-size-2 is-hidden-desktop">WHY CHOOSE DDA</h1>
+                    </div>
+                </div>    
+                <div class="columns">
+                    <div class="column is-9">
                         <hr>
                     </div>
                     <div class="column">
-                        <h1 class="title has-text-light has-text-centered big-boy is-size-2">WHY CHOOSE DDA</h1>
+                        <h1 class="title has-text-light has-text-centered big-boy is-size-2 is-hidden-touch">WHY CHOOSE DDA</h1>
                     </div>
                 </div>
                 <div class="columns">
@@ -106,23 +111,50 @@
 
     
 
-    <section class="section has-text-centered">
-        <div class="container">
-            <h1 class="title big-boy is-size-2"> PROJECT GALLERY</h1>
+    
+    
+    <section class=" section hero has-text-centered">
+        <div class="hero-body">
+        <h1 class="title big-boy is-size-2">PROJECT GALLERY</h1>
+            <div class="container">
+                <div class="carousel_1">
+                    <div><img src="{{url('images/slides/2.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/3.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/1.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/4.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/5.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/6.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/7.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/8.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/9.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/10.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/11.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/12.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/13.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/14.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/15.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/16.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/17.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/18.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/19.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/20.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/21.jpeg')}}"></div>
+                    <div><img src="{{url('images/slides/22.jpeg')}}"></div>
+                </div> 
+            </div>
         </div>
     </section>
     <hr>
 
 
 
-
 <section class="section">
 <div class="container">
 
-<div class="columns is-mobile">
+<div class="columns">
 	<div class="column is-half">
 		<h1 class="title big-boy is-size-2">CONTACT US</h1>
-		<div class="columns is-mobile">
+		<div class="columns">
 			<div class="column is-half">
                 <div class="field">
                     <div class="control has-icons-left">
@@ -144,7 +176,7 @@
                 </div>
             </div>
 		</div>
-		<div class="columns is-mobile">
+		<div class="columns">
 			<div class="column is-half">
                 <div class="field">
                     <div class="control has-icons-left">
@@ -155,7 +187,7 @@
                     </div>
                 </div>
             </div>
-			<div class="column is-half is-mobile">
+			<div class="column is-half">
                 <div class="control is expanded">
                     <div class="select is-medium is-fullwidth">
                             <select class="has-background-grey-lighter">
@@ -168,7 +200,7 @@
                 </div>
             </div>
         </div>
-        <div class="columns is-mobile">
+        <div class="columns">
             <div class="column">
                 <div class="field">
                     <textarea class="textarea has-background-grey-lighter is-medium" placeholder="Message" rows="6"></textarea>
@@ -196,9 +228,6 @@
 </div>
 </div>
 </div>
-
-
-
 
 @endsection
 
