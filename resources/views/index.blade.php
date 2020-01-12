@@ -5,6 +5,29 @@
     @include('common.mainhero')
 
 <section class="section has-text-centered">
+    <h3 class="subtitle has-text-weight-bold has-text-dark is-capitalize is-size-3 big-boy">Check if we service your county</h3>
+                <div class="columns">
+                    <div class="column is-4 is-offset-4">
+                    <form>
+                        <div class="typeahead__container">
+                            <div class="typeahead__field">
+                                <div class="typeahead__query">
+                                    <input class="js-typeahead"
+                                        name="q"
+                                        autocomplete="off">
+                                </div>
+                                <div class="typeahead__button">
+                                    <button type="submit">
+                                        <span class="typeahead__search-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+    </section>
+
+
+<section class="section has-text-centered">
     <div class="container">
         <section class="section">
             <h1 class="title big-boy is-size-1">THINGS WE SPECIALIZE IN</h1>
@@ -109,11 +132,11 @@
                     <hr>
                 </div>
             </div>
-            <div class="columns" id="accordion">
+            <div class="columns">
                 <div class="column is-3">
                      <section class="section"> 
                             <ul>
-                                <li class="step-text" id="step1"><a class="text subtitle is-size-4 tabs has-text-weight-bold is-mobile">Price Agreement & Scheduling</a></li>
+                                <li class="step-text" id="step1"><a class="text subtitle is-size-4 tabs has-text-weight-bold">Price Agreement & Scheduling</a></li>
                                 <li class="step-text" id="step2"><a class="text subtitle is-size-4 tabs has-text-weight-bold">Mark & Expose Utilities</a></li>
                                 <li class="step-text" id="step3"><a class="text subtitle is-size-4 tabs has-text-weight-bold">Survey & Prep Job Site</a></li>
                                 <li class="step-text" id="step4"><a class="text subtitle is-size-4 tabs has-text-weight-bold">Get The Job Done</a></li>
@@ -122,20 +145,20 @@
                 </div>
                 <div class="column">
                     <section class="section">
-                        <div id="para1" class="is-mobile">
-                            <h3 class="space">Price Agreement</h3>
+                        <div id="para1">
+                            <h3 class="space is-size-3 contact-text">Price Agreement</h3>
                                 <p class="text is-size-4">After you get your free instant estimate and give us a call/text or email we will gather information about your project scope and needs.  A final quote will be provided promptly and once it is accepted, we schedule your job based on your timeline.</p>
                         </div>
                         <div id="para2" class="is-hidden">
-                            <h3 class="space">Mark & Expose</h3>
+                            <h3 class="space is-size-3 contact-text">Mark & Expose</h3>
                         <p class="text is-size-4">We will call 811 to locate all public utilities on the properties we will be boring.  Your company is responsible for communicating directly with the property owner to determine if there are any private utility lines installed.  Before we arrive on the job site, we require all utilities to be exposed if they are on the bore path (you will only need to dig 2.5’ deep and 2’ wide on each side of utility marking if not found).  </p>
                         </div>
                         <div id="para3" class="is-hidden">
-                            <h3 class="space">Survey & Prep</h3>
+                            <h3 class="space is-size-3 contact-text">Survey & Prep</h3>
                         <p class="text is-size-4">We arrive on the job site!  We will walk the property and look at all utilities coming into the property to ensure everything is properly marked and exposed as needed.  While some of our employees are unloading equipment, our lead team member will review and confirm job scope with your employee.  At this time, we finalize exact bore path, depth of tunnel the whole way, entry spot (usually 5 feet behind meter or box so we are 18 inches at hook up spot), and lastly, where you want our bore head to end and at which depth from ground level our exit mark will be.  </p>
                         </div>
                         <div id="para4" class="is-hidden">
-                            <h3 class="space">Finish!</h3>
+                            <h3 class="space is-size-3 contact-text">Finish!</h3>
                         <p class="text is-size-4">When all the work is completed!  FAST!  We bore an underground tunnel to exact specifications based on our discussion.  We can either pull back your product, pipe you supply, or HDPE pipe we carry in which you will be able to easily slide your product through.  You hook up from each end and BOOM its done!  No trenching, no mess, and your customer will be pleased with the hassle-free process. </p>
                         </div>
                     </section>
