@@ -8,38 +8,49 @@
     <div class="container">
         <section class="section">
             <h1 class="title big-boy is-size-1">THINGS WE SPECIALIZE IN</h1>
-                <h2 class="subtitle text"><span class="has-text-weight-bold">NOW</span> serving all of <span class="has-text-weight-bold">Gwinnett county</span> and will soon be serving surrounding areas. Book an appointment with us today!</h2>
+                <h2 class="subtitle text"><span class="has-text-weight-bold">NOW</span> serving <span class="has-text-weight-bold">North Georgia</span> and will soon be serving surrounding areas. Book an appointment with us today!</h2>
         </section>
         <div class="columns">
             <div class="column">
                 <ul>
                 
                     <li><i class="fas fa-tint top-icon has-text-info"></i></li>
-                    <li><a id="toggle-water" class="button is-dark is-outlined is-rounded">Water/Sewer</a></li>
-                    <li><p id="details4" class="has-text-weight-bold is-size-5">Need a water line coming straight from your meter through your garage floor?</p></li>          
+                    <li><h2 class="subtitle has-text-weight-bold text">Water/Sewer</h2></li>          
                 </ul>
             </div>
             <div class="column">
                 <ul>
                     <li><i class="fas fa-bolt top-icon has-text-warning"></i></li>
-                    <li><a id="toggle-electrical" class="button is-dark is-outlined is-rounded">Electrical</a></li>
-                    <li><p id="details" class="has-text-weight-bold is-size-5">Building a new house or guest suite and need electrical lines?<p><li>
+                    <li><h2 class="subtitle has-text-weight-bold text">Electrical</h2></li>
                 </ul>
             </div>
             <div class="column">
                 <ul>
                     <li><i class="fas fa-burn top-icon has-text-link"></i></li>
-                    <li><a id="toggle-gas" class="button is-dark is-outlined is-rounded">Gas</a></li>
-                    <li><p id="details2" class="has-text-weight-bold is-size-5">We even do gas lines!</p></li>
+                    <li><h2 class="subtitle has-text-weight-bold text">Gas</h2></li>
+                
                 </ul>
             </div>
             <div class="column">
                 <ul>
-                    <li><i class="fas fa-infinity top-icon has-text-danger"></i><li>
-                    <li><a id="toggle-endless" class="button is-dark is-outlined is-rounded">Endless</a></li>
-                    <li><p id ="details3" class="has-text-weight-bold is-size-5">Need directional signs for your new or old business? We drill under and through anything!</p></li>    
+                    <li><i class="fas fa-road top-icon"></i><li>
+                    <li><h2 class="subtitle has-text-weight-bold text">Road/Driveway bore</h2></li>
+                      
                 </ul>
-
+            </div>
+            <div class="column">
+                <ul>
+                    <li><i class="fas fa-seedling top-icon has-text-success"></i></li>
+                    <li><h2 class="subtitle has-text-weight-bold text">Irrigation</h2></li>
+                    
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li><i class="fas fa-network-wired top-icon has-text-grey-dark"></i></li>
+                    <li><h2 class="subtitle has-text-weight-bold text">Communtations</h2></li>
+                    
+                </ul>
             </div>
         </div>   
 </div>
@@ -47,40 +58,100 @@
     </div>
 </section>
 
+<section class="section has-text-centered">
+    <div class="hero dda-video-hero">
+        <div class="hero-body">
+            <div class="container">
+            <iframe class="video-shit" width="560" height="315" src="https://www.youtube.com/embed/quJ_hw6bmPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
 <div class='hero has-background-grey-lighter'>
     <div class="hero-body">
         <div class="control">
             <div class="columns">
                 <div class="column is-3">
-                    <h1 class="title has-text-centered big-boy is-size-2">WHO WE ARE</h1>
+                    <h1 class="title has-text-centered big-boy is-size-2">WHY CHOOSE DDA</h1>
                 </div>
                 <div class="column">
                     <hr>
                 </div>
             </div>
             <div class="columns">
-                <div class="column is-half">
+                <div class="column">
                      <section class="section"> 
-                            <h2 class="subtitle text is-size-4">Directional Drillers of Atlanta is excited to start their new venture in the Atlanta market!  We might be new to your area, but not to the boring industry!  We have two Owner-Operators, Travis and Paul. Paul has <span class="has-text-weight-bold">20+ years</span> of experience running his own business in Knoxville, TN and also has supervised HUGE jobs throughout the US and Canada.<span class="has-text-weight-bold"> We offer a variety of services to make your next project run smoothly, saving you not only money, but valuable time.</span>   </h2>
+                            <h2 class="subtitle text is-size-4">Many plumbers, electricians, and contractors are not aware that we are a strong competitive option when it comes to replacing a complete water, electrical, communication or gas line.  We start at the meter or box and bore a completely trenchless tunnel under landscaping, roads, driveways, or water and place the bore head where you want it to hook up your line.  This method is effective, saves money and valuable time.  We can even pull back a pipe, leaving your customer with a lifetime tunnel in the event they need to repair the line in the future.  All you need to do is slide in your line and hook up to meter or box and at the residential/commercial building.  We have total control and tracking capability of where our bore head is at any moment and heading every foot of the way!  Get an instant free estimate by clicking “here”
+                            Stop trenching your day away and give DDA’s seamless <span class="has-text-weight-bold">4-step process</span> a try today!   </h2>
                     </section>
                 </div>    
-                <div class="column">
-                    <section class="section">
-                        <h2 class="subtitle text is-size-4">We offer an end-to-end client experience that includes seamless communication, budgeting, on-site organization, and solid, quality work every time.  Whether you're a plumber that needs a 75 foot water line put completely underground from the meter to house or electrician that needs 300 feet of electrical to power a house or business, <span class="has-text-weight-bold">WE DO IT ALL</span>.  100% satisfaction guaranteed! </h2>
-                    </section>
-                 </div>
             </div>
         </div>
     </div>
 </div>
 
 
-    <div class="hero has-background-dark">
+<div class='hero has-background-white'>
+    <div class="hero-body">
+        <div class="control">
+            <div class="columns">
+                <div class="column is-hidden-touch">
+                    <hr>
+                </div>
+                <div class="column">
+                    <h1 class="title has-text-centered big-boy is-size-2 has-text-black">4-STEP PROCESS</h1>
+                </div>
+                <div class="column">
+                    <hr>
+                </div>
+            </div>
+            <div class="columns" id="accordion">
+                <div class="column is-3">
+                     <section class="section"> 
+                            <ul>
+                                <li class="step-text" id="step1"><a class="text subtitle is-size-4 tabs has-text-weight-bold is-mobile">Price Agreement & Scheduling</a></li>
+                                <li class="step-text" id="step2"><a class="text subtitle is-size-4 tabs has-text-weight-bold">Mark & Expose Utilities</a></li>
+                                <li class="step-text" id="step3"><a class="text subtitle is-size-4 tabs has-text-weight-bold">Survey & Prep Job Site</a></li>
+                                <li class="step-text" id="step4"><a class="text subtitle is-size-4 tabs has-text-weight-bold">Get The Job Done</a></li>
+                            </ul>
+                    </section>
+                </div>
+                <div class="column">
+                    <section class="section">
+                        <div id="para1" class="is-mobile">
+                            <h3 class="space">Price Agreement</h3>
+                                <p class="text is-size-4">After you get your free instant estimate and give us a call/text or email we will gather information about your project scope and needs.  A final quote will be provided promptly and once it is accepted, we schedule your job based on your timeline.</p>
+                        </div>
+                        <div id="para2" class="is-hidden">
+                            <h3 class="space">Mark & Expose</h3>
+                        <p class="text is-size-4">We will call 811 to locate all public utilities on the properties we will be boring.  Your company is responsible for communicating directly with the property owner to determine if there are any private utility lines installed.  Before we arrive on the job site, we require all utilities to be exposed if they are on the bore path (you will only need to dig 2.5’ deep and 2’ wide on each side of utility marking if not found).  </p>
+                        </div>
+                        <div id="para3" class="is-hidden">
+                            <h3 class="space">Survey & Prep</h3>
+                        <p class="text is-size-4">We arrive on the job site!  We will walk the property and look at all utilities coming into the property to ensure everything is properly marked and exposed as needed.  While some of our employees are unloading equipment, our lead team member will review and confirm job scope with your employee.  At this time, we finalize exact bore path, depth of tunnel the whole way, entry spot (usually 5 feet behind meter or box so we are 18 inches at hook up spot), and lastly, where you want our bore head to end and at which depth from ground level our exit mark will be.  </p>
+                        </div>
+                        <div id="para4" class="is-hidden">
+                            <h3 class="space">Finish!</h3>
+                        <p class="text is-size-4">When all the work is completed!  FAST!  We bore an underground tunnel to exact specifications based on our discussion.  We can either pull back your product, pipe you supply, or HDPE pipe we carry in which you will be able to easily slide your product through.  You hook up from each end and BOOM its done!  No trenching, no mess, and your customer will be pleased with the hassle-free process. </p>
+                        </div>
+                    </section>
+
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="hero has-background-dark">
         <div class="hero-body">
             <div class="control">
                 <div class="columns">
                     <div class="column">
-                        <h1 class="title has-text-light has-text-centered big-boy is-size-2 is-hidden-desktop">WHY CHOOSE DDA</h1>
+                        <h1 class="title has-text-light has-text-centered big-boy is-size-2 is-hidden-desktop">WHO WE ARE</h1>
                     </div>
                 </div>    
                 <div class="columns">
@@ -88,13 +159,13 @@
                         <hr>
                     </div>
                     <div class="column">
-                        <h1 class="title has-text-light has-text-centered big-boy is-size-2 is-hidden-touch">WHY CHOOSE DDA</h1>
+                        <h1 class="title has-text-light has-text-centered big-boy is-size-2 is-hidden-touch">WHO WE ARE</h1>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half">
                         <section class="section">
-                            <h2 class="subtitle has-text-grey-lighter text is-size-4">Most plumbers, electricians, or contractors still do not know we are even an option when it comes to replacing a complete water, gas, or electrical line.  We start from the meter or desired area and bore a complete trenchless line under grass, roads or driveways and place our bore head anywhere near the house and even into the basement, closest, or crawl space.  This method doesn't only save money but saves a ton of time.  We pull back our pipe so all you need to do is slide your line right in and hook it up!  We have total control and vision of where our bore head is at every foot of the way!  Stop trenching and give us a call!  From now on you'll be DRILLING IT!</h2>
+                            <h2 class="subtitle has-text-grey-lighter text is-size-4">DDA is excited to start their new venture in the North Georgia area!  We are a family-owned small business that consists of two owner-operators, Travis Bastecki and Paul Bigler.  Paul has been operating his directional drilling company, P&S Consultants and Contractors in Knoxville, TN the last 21 years and counting.  He is moving to Gwinnett County to partner with his son-in-law Travis Bastecki to start Directional Drillers of Atlanta.  We would love to partner with your business to give your customers the best experience possible.  We offer an end-to-end client experience that includes seamless communication, budgeting, on-site organization, and solid, quality work every time.  There are no jobs too small but there are jobs too big.  We don’t claim to be the biggest, we are determined to be the best!  </h2>
                         </section>
                         </div>
                     <div class="column">
@@ -106,6 +177,9 @@
             </div>
         </div>
     </div>
+
+
+    
 
    
 
@@ -220,14 +294,20 @@
 	
 	<div class="columns">
 		<div class="column has-icon-left">
-            <h2 class="subtitle"><span class="icon"><i class="fas fa-hard-hat"></i></span>Travis <a href="tel:770-366-4414" class="has-text-danger has-text-weight-bold">(770)366-4414</a></h2>
-            <h2 class="subtitle"><span class="icon"><i class="fas fa-hard-hat"></i></span>Paul <a href="tel:865-388-9111" class="has-text-danger has-text-weight-bold">(865)388-9111</a></h2>
+            <h2 class="subtitle"><span class="icon"><i class="fas fa-hard-hat"></i></span>Travis <a href="tel:770-366-4414" class="contact-text has-text-weight-bold">(770)366-4414</a></h2>
+            <h2 class="subtitle"><span class="icon"><i class="fas fa-envelope"></i></span><a class="contact-text" href="mailto:Travis@ddanow.com">Travis@ddanow.com</a></h2>
 		</div>	
 	
 	</div>
 </div>
 </div>
 </div>
+
+
+
+
+  
+
 
 @endsection
 

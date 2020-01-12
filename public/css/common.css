@@ -1,6 +1,8 @@
 .dda-homepage-hero{
-    background-image:url('../images/hero-one.jpg');
+    background-image:url('../images/truck3.png');
     background-size:cover;
+    align-items: stretch;
+
 }
 .navbar-item img{
     max-height:3.0rem;
@@ -16,11 +18,6 @@
 
 ::-webkit-input-placeholder{
     color: black;
-}
-
-.dda-about-hero{
-    background-image:url('../images/hero-two.jpg');
-    background-size:cover;
 }
 
 .text{
@@ -48,4 +45,25 @@
 }
 .fs-carousel-viewport{
     background-color:#000;
+}
+
+.video-shit {
+    min-height: 500px;
+    min-width:100%;
+}
+
+.step-text{
+    margin-bottom: 10px;
+}
+
+a:hover {
+    color:maroon;
+}
+
+.contact-text{
+    color:maroon;
+}
+
+.space{
+    margin-bottom: 25px!important;
 }

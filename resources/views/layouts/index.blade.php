@@ -76,6 +76,39 @@
                    $("#details4").toggle(500);
                          
                 });
+
+                $("#step1").click(function(){
+                    $("#para1").removeClass("is-hidden");
+                    $("#para2").addClass("is-hidden");
+                    $("#para3").addClass("is-hidden");
+                    $("#para4").addClass("is-hidden");
+                        
+                });
+
+                $("#step2").click(function(){
+                    $("#para2").removeClass("is-hidden");
+                    $("#para1").addClass("is-hidden");
+                    $("#para3").addClass("is-hidden");
+                    $("#para4").addClass("is-hidden");
+                  
+                      
+                });
+
+                $("#step3").click(function(){
+                    $("#para3").removeClass("is-hidden");
+                    $("#para1").addClass("is-hidden");
+                    $("#para2").addClass("is-hidden");
+                    $("#para4").addClass("is-hidden");
+                     
+                });
+                $("#step4").click(function(){
+                    $("#para4").removeClass("is-hidden");
+                    $("#para1").addClass("is-hidden");
+                    $("#para2").addClass("is-hidden");
+                    $("#para3").addClass("is-hidden"); 
+                });
+
+            
             });
         </script>
     </body>
