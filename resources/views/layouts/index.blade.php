@@ -50,33 +50,5 @@
             @include('common.footer')
         </footer>
         @include('common.modal')
-
-        <script>
-            $(document).ready(function(){
-                $("#details").toggle();
-                $("#toggle-electrical").on("click", function (){
-                   $("#details").toggle(500);
-                         
-                });
-
-                $("#details2").toggle();
-                $("#toggle-gas").on("click", function (){
-                   $("#details2").toggle(500);
-                         
-                });
-
-                $("#details3").toggle();
-                $("#toggle-endless").on("click", function (){
-                   $("#details3").toggle(500);
-                         
-                });
-
-                $("#details4").toggle();
-                $("#toggle-water").on("click", function (){
-                   $("#details4").toggle(500);
-                         
-                });
-            });
-        </script>
     </body>
 </html>
