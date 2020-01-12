@@ -5,17 +5,22 @@ $(function(){
         source: {
             names: {
                 ajax: {
-                    url: 'api/counties'
+                    url: 'api/zipcodes'
                 }
             },
         },
-        display:'name',
+        display:'zipcode',
         callback:{
             onSubmit: function(node, form, item, event){
                 event.preventDefault();
-                const id = item.id;
+                let zipcode;
+                if(item){
+                    zipcode = item.zipcode;
+                }else{
+                    zipcode = $(node).val();
+                }
                 $.ajax({
-                    url:'api/county/available/'+id,
+                    url:'api/zipcode/available/'+zipcode,
                     success:function(data,success){
                         if(success === 'success'){
                             const status = data.status;
@@ -24,6 +29,7 @@ $(function(){
                         }
                     }
                 });
+
             }
         }
     });
