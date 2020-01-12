@@ -59,6 +59,9 @@
 a:hover {
     color:maroon;
 }
+a.is-active{
+    color:maroon;
+}
 
 .contact-text{
     color:maroon;
