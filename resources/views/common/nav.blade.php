@@ -13,17 +13,20 @@
 
   <div id="dda-nav" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item is-uppercase">
-        Who we are
+      <a href="#thingwespecialize" class="dda-nav-link navbar-item is-uppercase">
+        Thing we specialize
       </a>
 
-      <a class="navbar-item is-uppercase">
-        What we do
+      <a href="#whychoosedda" class="dda-nav-link navbar-item is-uppercase">
+        Why Choose DDA
       </a>
-      <a class="navbar-item is-uppercase">
+      <a href="#whoweare" class="dda-nav-link navbar-item is-uppercase">
+        Who we are
+      </a>
+      <a href="#projectgallery" class="dda-nav-link navbar-item is-uppercase">
         Project Gallery
       </a>
-      <a class="navbar-item is-uppercase">
+      <a href="#contactus" class="dda-nav-link navbar-item is-uppercase">
         Contact Us
       </a>
     </div>
@@ -32,7 +35,7 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary is-outlined">
+          <a href="{{url('estimate')}}" class="button is-primary is-outlined">
             <span class="icon is-small">
                 <i class="fas fa-dollar-sign"></i>
             </span>

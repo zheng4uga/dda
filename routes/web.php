@@ -16,3 +16,5 @@ Route::get('api/county/available/{id}','CountyController@countyAvailable');
 
 Route::get('api/zipcodes','ZipcodeController@allZipcodes');
 Route::get('api/zipcode/available/{id}','ZipcodeController@zipcodeAvailable');
+
+Route::view('estimate','estimate');

@@ -39,3 +39,21 @@
         </footer>
   </div>
 </div>
+
+<div class="modal call-modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head has-text-centered">
+      <p class="modal-card-title">
+        <span class="icon">
+            <i class="has-text-success fas fa-check"></i>
+        </span>  
+        Contact Us
+      </p>
+      <button class="modal-close" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body has-text-centered">
+        Please call <a href="tel:7703364414">770-366-4414</a>
+    </section>
+  </div>
+</div>

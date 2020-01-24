@@ -2,7 +2,10 @@
 @section('page-title','DDA')
 
 @section('content')
-    @include('common.mainhero')
+    @include('common.mainhero',[
+            'title'=>'Directional Drillers Of Atlanta',
+            'classes'=>'dda-homepage-hero is-large'
+        ])
 
 <section class="section has-text-centered">
     <h3 class="subtitle has-text-weight-bold has-text-dark is-capitalize is-size-3 big-boy">Check if we service your county</h3>
@@ -27,7 +30,7 @@
     </section>
 
 
-<section class="section has-text-centered">
+<section id="thingwespecialize" class="section has-text-centered">
     <div class="container">
         <section class="section">
             <h1 class="title big-boy is-size-1">THINGS WE SPECIALIZE IN</h1>
@@ -94,7 +97,7 @@
 
 
 
-<div class='hero has-background-grey-lighter'>
+<div id="whychoosedda" class='hero has-background-grey-lighter'>
     <div class="hero-body">
         <div class="control">
             <div class="columns">
@@ -169,7 +172,7 @@
     </div>
 </div>
 
-<div class="hero has-background-dark">
+<div id="whoweare" class="hero has-background-dark">
         <div class="hero-body">
             <div class="control">
                 <div class="columns">
@@ -210,7 +213,7 @@
 
     
     
-    <section class=" section hero has-text-centered">
+    <section id="projectgallery" class=" section hero has-text-centered">
         <div class="hero-body">
         <h1 class="title big-boy is-size-2">PROJECT GALLERY</h1>
             <div class="container">
@@ -245,7 +248,7 @@
 
 
 
-<section class="section">
+<section id="contactus" class="section">
 <div class="container">
 
 <div class="columns">

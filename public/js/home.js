@@ -60,4 +60,12 @@ $(function(){
         });
     });
 
+    $('.dda-nav-link').on('click',function(e){
+        e.preventDefault();
+        let id = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop:$(id).offset().top - 96
+        },1000);
+    });
+
 });

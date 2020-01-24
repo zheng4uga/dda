@@ -73,6 +73,23 @@ a.is-active{
 
 .big-boy2{
     font-family:'Oswald', sans-serif;
-    color: darkorange;
-
+    color: #FF6F12;
+}
+@media only screen and (min-width: 1030px) {
+    .dda-homepage-hero h1{
+        float:right;
+        position: relative;
+        bottom:89px;
+        transform: rotate(-3deg);
+        /* Safari */
+        -webkit-transform: rotate(-3deg);
+        /* Firefox */
+        -moz-transform: rotate(-3deg);
+        /* IE */
+        -ms-transform: rotate(-3deg);
+        /* Opera */
+        -o-transform: rotate(-3deg);
+        right:4px;
+        font-size:2.5rem !important ;
+    }
 }
