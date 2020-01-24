@@ -108,8 +108,7 @@
             <div class="columns">
                 <div class="column">
                      <section class="section"> 
-                            <h2 class="subtitle text is-size-4">Many plumbers, electricians, and contractors are not aware that we are a strong competitive option when it comes to replacing a complete water, electrical, communication or gas line.  We start at the meter or box and bore a completely trenchless tunnel under landscaping, roads, driveways, or water and place the bore head where you want it to hook up your line.  This method is effective, saves money and valuable time.  We can even pull back a pipe, leaving your customer with a lifetime tunnel in the event they need to repair the line in the future.  All you need to do is slide in your line and hook up to meter or box and at the residential/commercial building.  We have total control and tracking capability of where our bore head is at any moment and heading every foot of the way!  Get an instant free estimate by clicking “here”
-                            Stop trenching your day away and give DDA’s seamless <span class="has-text-weight-bold">4-step process</span> a try today!   </h2>
+                            <h2 class="subtitle text is-size-4">Many plumbers, electricians, and contractors are not aware that we are a strong competitive option when it comes to replacing a complete water, electrical, communication or gas line.  We start at the meter or box and bore a completely trenchless tunnel under landscaping, roads, driveways, or water and place the bore head where you want it to hook up your line.  This method is effective, saves money and valuable time.  We can even pull back a pipe, leaving your customer with a lifetime tunnel in the event they need to repair the line in the future.  All you need to do is slide in your line and hook up to meter or box and at the residential/commercial building.  We have total control and tracking capability of where our bore head is at any moment and heading every foot of the way! Stop trenching your day away and give DDA’s seamless <span class="has-text-weight-bold">4-step process</span> a try today!   </h2>
                     </section>
                 </div>    
             </div>
@@ -136,10 +135,10 @@
                 <div class="column is-3">
                      <section class="section"> 
                             <ul>
-                                <li class="step-text" id="step1"><a class="text subtitle is-size-4 tabs has-text-weight-bold">Price Agreement & Scheduling</a></li>
-                                <li class="step-text" id="step2"><a class="text subtitle is-size-4 tabs has-text-weight-bold">Mark & Expose Utilities</a></li>
-                                <li class="step-text" id="step3"><a class="text subtitle is-size-4 tabs has-text-weight-bold">Survey & Prep Job Site</a></li>
-                                <li class="step-text" id="step4"><a class="text subtitle is-size-4 tabs has-text-weight-bold">Get The Job Done</a></li>
+                                <li class="step-text" id="step1"><a class="text subtitle is-size-4 has-text-weight-bold">Price Agreement & Scheduling</a></li>
+                                <li class="step-text" id="step2"><a class="text subtitle is-size-4 has-text-weight-bold">Mark & Expose Utilities</a></li>
+                                <li class="step-text" id="step3"><a class="text subtitle is-size-4 has-text-weight-bold">Survey & Prep Job Site</a></li>
+                                <li class="step-text" id="step4"><a class="text subtitle is-size-4 has-text-weight-bold">Get The Job Done</a></li>
                             </ul>
                     </section>
                 </div>
@@ -147,7 +146,7 @@
                     <section class="section">
                         <div id="para1">
                             <h3 class="space is-size-3 contact-text">Price Agreement</h3>
-                                <p class="text is-size-4">After you get your free instant estimate and give us a call/text or email we will gather information about your project scope and needs.  A final quote will be provided promptly and once it is accepted, we schedule your job based on your timeline.</p>
+                                <p class="text is-size-4">Fill out our <a class="has-text-weight-bold subtitle">Request Quote</a> form and we will get back to you within 24 hours or call us for urgent matters <a href="tel:770-336-4414" class="subtitle has-text-weight-bold">(770)-336-4414</a>. A final quote will be provided promptly and once it is accepted, we schedule your job based on your timeline.</p>
                         </div>
                         <div id="para2" class="is-hidden">
                             <h3 class="space is-size-3 contact-text">Mark & Expose</h3>
@@ -277,7 +276,7 @@
 			<div class="column is-half">
                 <div class="field">
                     <div class="control has-icons-left">
-                        <input class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter Name">
+                        <input class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter First Name">
                         <span class="icon is-left">
                             <i class="fas fa-user has-text-dark"></i>
                         </span>
@@ -285,17 +284,39 @@
                 </div>
             </div>
 			<div class="column is-half">
-                <div class="control is expanded">
-                    <div class="select is-medium is-fullwidth">
-                            <select class="has-background-grey-lighter">
-                                <option>Select</option>
-                                <option>Book Appointment</option>
-                                <option>Inquiry</option>
-                                <option>Others</option>
-                            </select>
+            <div class="field">
+                    <div class="control has-icons-left">
+                        <input class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter Last Name">
+                        <span class="icon is-left">
+                            <i class="fas fa-user has-text-dark"></i>
+                        </span>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="columns">
+                <div class="column">
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter Address">
+                            <span class="icon is-left">
+                                <i class ="fas fa-home has-text-dark"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="columns">
+                <div class="column is-half">
+                    <div class="field">
+                        <input class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter City">
+                    </div>
+                </div>
+                <div class="column">
+                <div class="field">
+                        <input class="input has-background-grey-lighter is-medium" type="text" placeholder="Zip Code">
+                    </div>
+                </div>
         </div>
         <div class="columns">
             <div class="column">
