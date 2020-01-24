@@ -135,17 +135,10 @@
                 <div class="column is-3">
                      <section class="section"> 
                             <ul>
-<<<<<<< HEAD
-                                <li class="step-text" id="step1"><a class="text subtitle is-size-4 has-text-weight-bold">Price Agreement & Scheduling</a></li>
-                                <li class="step-text" id="step2"><a class="text subtitle is-size-4 has-text-weight-bold">Mark & Expose Utilities</a></li>
-                                <li class="step-text" id="step3"><a class="text subtitle is-size-4 has-text-weight-bold">Survey & Prep Job Site</a></li>
-                                <li class="step-text" id="step4"><a class="text subtitle is-size-4 has-text-weight-bold">Get The Job Done</a></li>
-=======
                                 <li class="step-text" id="step1"><a data-toggle="para1" class="text is-active step-anchor subtitle is-size-5 tabs has-text-weight-bold">Price Agreement & Scheduling</a></li>
                                 <li class="step-text" id="step2"><a data-toggle="para2" class="text step-anchor subtitle is-size-5 tabs has-text-weight-bold">Mark & Expose Utilities</a></li>
                                 <li class="step-text" id="step3"><a data-toggle="para3" class="text step-anchor subtitle is-size-5 tabs has-text-weight-bold">Survey & Prep Job Site</a></li>
                                 <li class="step-text" id="step4"><a data-toggle="para4" class="text step-anchor subtitle is-size-5 tabs has-text-weight-bold">Get The Job Done</a></li>
->>>>>>> 4fcb0681622034236d8dd044bb3b0000d9b53842
                             </ul>
                     </section>
                 </div>
