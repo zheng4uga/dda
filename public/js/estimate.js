@@ -16,7 +16,7 @@ $(function(){
             data:data,
             success:function(data,status){
                 if(status === 'success'){
-                    alert("We have recieve your information. Our technician will get in contact with your shortly");
+                    alert("Thank you so much for reaching out to us, we will get backt o you as soon as we can.");
                 }
             }
         });

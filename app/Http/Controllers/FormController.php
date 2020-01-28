@@ -23,7 +23,7 @@ class FormController extends Controller
         if($request->isMethod('post')){
             $inputs= $request->all();
             unset($inputs['_token']);
-            Mail::to(['travis@ddanow.com','zheng4uga@gmail.com'])->send(new Estimate($inputs));
+            Mail::to(['travis@ddanow.com'])->send(new Estimate($inputs));
         }
     }
 }
