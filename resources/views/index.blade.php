@@ -108,7 +108,7 @@
             <div class="columns">
                 <div class="column">
                      <section class="section"> 
-                            <h2 class="subtitle text is-size-4">Many plumbers, electricians, and contractors are not aware that we are a strong competitive option when it comes to replacing a complete water, electrical, communication or gas line.  We start at the meter or box and bore a completely trenchless tunnel under landscaping, roads, driveways, or water and place the bore head where you want it to hook up your line.  This method is effective, saves money and valuable time.  We can even pull back a pipe, leaving your customer with a lifetime tunnel in the event they need to repair the line in the future.  All you need to do is slide in your line and hook up to meter or box and at the residential/commercial building.  We have total control and tracking capability of where our bore head is at any moment and heading every foot of the way! Stop trenching your day away and give DDA’s seamless <span class="has-text-weight-bold">4-step process</span> a try today!   </h2>
+                            <h2 class="subtitle text is-size-4">Many plumbers, electricians, and contractors are not aware that we are a strong competitive option when it comes to replacing a complete water, electrical, communication or gas line.  We start at the meter or box and bore a completely trenchless tunnel under landscaping, roads, driveways, or water and place the bore head where you want to hook up your line.  This method is effective, saves money and valuable time.  We can even pull back a pipe, leaving your customer with a lifetime tunnel in the event they need to repair the line in the future. All you need to do is slide in your line and hook up to meter or box and at the residential/commercial building.  We have total control and tracking capability of where our bore head is at any moment and heading every foot of the way! Stop trenching your day away and give DDA’s seamless <span class="has-text-weight-bold">4-step process</span> a try today!   </h2>
                     </section>
                 </div>    
             </div>
@@ -146,7 +146,7 @@
                     <section class="section">
                         <div id="para1" class="step-paragraph">
                             <h3 class="space is-size-3 contact-text">Price Agreement</h3>
-                                <p class="text is-size-4">Fill out our <a class="has-text-weight-bold subtitle">Request Quote</a> form and we will get back to you within 24 hours or call us for urgent matters <a href="tel:770-336-4414" class="subtitle has-text-weight-bold">(770)-336-4414</a>. A final quote will be provided promptly and once it is accepted, we schedule your job based on your timeline.</p>
+                                <p class="text is-size-4">Fill out our <a class="has-text-weight-bold subtitle">Request Quote</a> form and we will get back to you within 24 hours or call us for urgent matters at <a href="tel:770-336-4414" class="subtitle has-text-weight-bold">(770)-336-4414</a>. A final quote will be provided promptly and once it is accepted, we schedule your job based on your timeline.</p>
                         </div>
                         <div id="para2" class="is-hidden step-paragraph">
                             <h3 class="space is-size-3 contact-text">Mark & Expose</h3>
@@ -169,36 +169,41 @@
 </div>
 
 <div class="hero has-background-dark">
-        <div class="hero-body">
-            <div class="control">
-                <div class="columns">
-                    <div class="column">
-                        <h1 class="title has-text-light has-text-centered big-boy is-size-2 is-hidden-desktop">WHO WE ARE</h1>
-                    </div>
-                </div>    
-                <div class="columns">
-                    <div class="column is-9">
-                        <hr>
-                    </div>
-                    <div class="column">
-                        <h1 class="title has-text-light has-text-centered big-boy is-size-2 is-hidden-touch">WHO WE ARE</h1>
-                    </div>
+    <div class="hero-body">
+        <div class="control">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="title has-text-light has-text-centered big-boy is-size-2 is-hidden-desktop">WHO WE ARE</h1>
                 </div>
-                <div class="columns">
-                    <div class="column is-half">
-                        <section class="section">
-                            <h2 class="subtitle has-text-grey-lighter text is-size-4">DDA is excited to start their new venture in the North Georgia area!  We are a family-owned small business that consists of two owner-operators, Travis Bastecki and Paul Bigler.  Paul has been operating his directional drilling company, P&S Consultants and Contractors in Knoxville, TN the last 21 years and counting.  He is moving to Gwinnett County to partner with his son-in-law Travis Bastecki to start Directional Drillers of Atlanta.  We would love to partner with your business to give your customers the best experience possible.  We offer an end-to-end client experience that includes seamless communication, budgeting, on-site organization, and solid, quality work every time.  There are no jobs too small but there are jobs too big.  We don’t claim to be the biggest, we are determined to be the best!  </h2>
-                        </section>
-                        </div>
-                    <div class="column">
-                        <section class="section">
-                            <img src=../public/images/vermeer2.png>
-                        </section> 
-                    </div>
+            </div>    
+            <div class="columns">
+                <div class="column is-9">
+                        <hr>
+                </div>
+                <div class="column">
+                    <h1 class="title has-text-light has-text-centered big-boy is-size-2 is-hidden-touch">WHO WE ARE</h1>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-half">
+                    <section class="section">
+                        <h2 class="subtitle has-text-grey-lighter text is-size-4">DDA is excited to start their new venture in the North Georgia area!  We are a family-owned small business that consists of two owner-operators, Travis Bastecki and Paul Bigler.  Paul has been operating his directional drilling company, P&S Consultants and Contractors in Knoxville, TN the last 21 years and counting.  He is moving to Gwinnett County to partner with his son-in-law Travis Bastecki to start Directional Drillers of Atlanta.  We would love to partner with your business to give your customers the best experience possible.  We offer an end-to-end client experience that includes seamless communication, budgeting, on-site organization, and solid, quality work every time. We don’t claim to be the biggest, we are determined to be the best!  </h2>
+                    </section>
+                </div>
+                <div class="column">
+                    <section class="section">
+                        <img src=../public/images/vermeer2.png>
+                    </section> 
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter has-text-centered">
+                    <h3 class="text has-text-grey-lighter is-size-4 has-text-weight-medium is-italic">Licensed & Insured</h3>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 
     
@@ -209,7 +214,7 @@
 
     
     
-    <section class=" section hero has-text-centered">
+<section class=" section hero has-text-centered">
         <div class="hero-body">
         <h1 class="title big-boy is-size-2">PROJECT GALLERY</h1>
             <div class="container">
@@ -347,7 +352,10 @@
 </div>
 </div>
 
+
 @endsection
+
+
 
     
 
