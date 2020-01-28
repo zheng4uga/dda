@@ -1,4 +1,25 @@
 $(function(){
+
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+        });
+        });
+    }
     $.typeahead({
         input: ".js-typeahead",
         order: "asc",
@@ -59,5 +80,32 @@ $(function(){
             }
         });
     });
+
+    $('.dda-nav-link').on('click',function(e){
+        e.preventDefault();
+        let id = $(this).attr('href');
+        scrollTo(id);
+    });
+
+    $(document).on('submit','.contactus-form',function(e){
+        e.preventDefault();
+       const data= $(this).serializeArray();
+       $.ajax({
+           url:'form/contactus',
+           data:data,
+           method:"post",
+           success:function(data,status){
+               if(status === 'success'){
+                   alert("We have recieve your information, and we'll get in contact with you shortly");
+               }
+           }
+       })
+    });
+
+    function scrollTo(id){
+        $('html, body').animate({
+            scrollTop:$(id).offset().top - 96
+        },1000);
+    }
 
 });
