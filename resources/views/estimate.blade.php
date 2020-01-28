@@ -1,114 +1,142 @@
 @extends('layouts.index')
-@section('page-title','DDA: Estimate')
-@section('other-css')
-    <link href="{{url('css/estimate.css')}}" rel="stylesheet" type="text/css" >
-@endsection
+@section('page-title','DDA: Quote')
 
 @section('other-script')
-    <script src="{{ url('js/estimate.step.js') }}" type="text/javascript" ></script>
     <script src="{{ url('js/estimate.js') }}" type="text/javascript" ></script>
 @endsection
 
 @section('content')
     @include('common.mainhero',[
-        'title'=>'Answer a few simple questions to get a estimate',
+        'title'=>'Answer a few simple questions to get an quote',
         'classes'=>'is-medium is-primary'
     ])
-    <div class="section">
-        <section class="hero is-small">
-        <div class="hero-body">
-            <div class="columns">
-                <div class="column is-8">
-                    <div class="card estimate-card">
-                        <div class="card-content">
+    <section class="section">
+        <div class="container">
+            <form class="estimate-form">
+                @csrf
+                <div class="columns">
+                    <div class="column is-10 is-offset-1">
+                        <div class="columns">
+                            <div class="column is-one-third">
                                 <div class="field">
-                                    <label class="label">Type of service</label>
+                                    <label class="label">First Name</label>
                                     <div class="control">
-                                        <div class="select">
-                                            <select class="service-select">
-                                                <option value="0" >Select a service</option>
-                                                <option data-step="1" value=1>Water line replacement/new</option>
-                                                <option data-step="1" value=2>Electrical line replacement/new</option>
-                                                <option data-step="2" value=3>Driveway/Road Bore</option>
-                                                <option data-step="2" value=4>Irrigation</option>
-                                                <option data-step="3" value=-1>Sewer/Gas/Communications</option>
-                                            </select>
-                                        </div>
+                                        <input name="firstname" class="input" type="text">
                                     </div>
-                                </div>
-                                <div class="bore-field field is-hidden">
-                                    <label class="label">Bore Length</label>
-                                    <div class="control">
-                                        <input min=1 class="input" type="number" placeholder="Bore Length" >
-                                    </div>
-                                </div>
-                                <div class="shot-field field is-hidden">
-                                    <label class="label">How many shots under driveway or road?</label>
-                                    <div class="control">
-                                        <input min=1 class="input" type="number" placeholder="Number of shots">
-                                    </div>    
-                                </div>
-                                <div class="field">
-                                    <label class="label">Pipe Size</label>
-                                    <div class="control">
-                                        <div class="select">
-                                            <select class="pipe-select">
-                                                <option>Select a pipe size</option>
-                                                <option data-step="" value="0">None or supply your own</option>
-                                                <option data-step="" value="1.25">1.25 inches pipe</option>
-                                                <option data-step="" value="1.50">1.50 inches pipe</option>
-                                                <option data-step="" value="2.0">2.0 inches pipe</option>
-                                                <option data-step="" value="-1">More than 2.0 inches pipe</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                        <div class="card-footer">
-                            <div class="card-footer-item">
-                                <div class="buttons are-medium">
-                                    <button id="calculate" class="button is-primary">
-                                        <span class="icon">
-                                            <i class="fas fa-calculator"></i>
-                                        </span>
-                                        <span>Calculate</span>
-                                    </button>
-                                    <button id="reset" class="button is-warning">
-                                        <span class="icon">
-                                            <i class="fas fa-redo"></i>
-                                        </span>
-                                        <span>Start Over</span>
-                                    </button>
                                 </div>
                             </div>
+                            <div class="column">
+                                <div class="field">
+                                    <label class="label">Last Name</label>
+                                    <input name="lastname" class="input" type="text">
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="field">
+                                    <label class="label">Company Name</label>
+                                    <input name="company" class="input" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column">
+                                <div class="field">
+                                    <label class="label">Email Address</label>
+                                    <div class="control">
+                                        <input name="email" class="input" type="email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="field">
+                                    <label class="label">Phone Number</label>
+                                    <input name="phonenumber" class="input" type="tel">
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="field">
+                                    <label class="label">Completion Due Date</label>
+                                    <input name="completiondate" class="input" type="date">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <div class="field">
+                                    <label class="label">Jobsite Address</label>
+                                    <div class="control">
+                                        <input name="address" class="input" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="field">
+                                    <label class="label">City</label>
+                                    <input name="city" class="input" type="text">
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="field">
+                                    <label class="label">Zip Code</label>
+                                    <div class="control">
+                                        <input name="zipcode" class="input" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="field">
+                                    <label class="label">State</label>
+                                    <input name="state" class="input" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column is-one-fifth">
+                                <div class="field">
+                                    <label class="label">Type Of Service</label>
+                                    <div class="control is-expanded">
+                                        <div class="select is-fullwidth">
+                                            <select name="typeofservice">
+                                                <option value="-1">Select a type</option>
+                                                <option value="water/drinking">Water(Drinking)</option>
+                                                <option value="sewer/drain">Sewer/Drain</option>
+                                                <option value="electrical">Electrical</option>
+                                                <option value="fiber">Fiber</option>
+                                                <option value="optic">Optic</option>
+                                                <option value="gas">Gas</option>
+                                                <option value="other">Other</option>
+                                            </select>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="column is-3">
+                                <div class="field">
+                                    <label class="label">Distances Required (feet)</label>
+                                    <input name="distance" require class="input" type="text">
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="field">
+                                    <label class="label">Diameter Of Conduit (inches)</label>
+                                    <input name="diameterofconduit" class="input" type="number">
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="field">
+                                    <label class="label">Number Of Conduit</label>
+                                    <input name="bores" class="input" type="number">
+                                </div>
+                            </div>            
                         </div>
                     </div>
                 </div>
-                <div class="column is-4">
-                    <div class="card result-card">
-                        <div class="card-header has-background-info	">
-                            <div class="card-header-title ">
-                                <h1 class="title has-text-white has-text-centered">Your Estimate</h1>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <p class="subtitle has-text-weight-bold">Summary</p>
-                            <div class="content">
-                                <ol class="sumarry">
-
-                                </ol>
-                            </div>
-                        </div>
-                        <div class="card-footer has-background-primary">
-
-                            <div class="card-footer-item">
-                                <h1 class="title has-text-white total-cost">$0.00</h1>
-                            </div>
-                        </div>
+                <div class="columns">
+                    <div class="column is-10 is-offset-1">
+                        <button type="submit" class="button is-primary">Submit</button>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
-        </section>     
-    </div>                  
+    </section>                
 @endsection

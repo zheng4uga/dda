@@ -249,104 +249,106 @@
 
 <section id="contactus" class="section">
 <div class="container">
-
-<div class="columns">
-	<div class="column is-half">
-		<h1 class="title big-boy is-size-2">CONTACT US</h1>
-		<div class="columns">
-			<div class="column is-half">
-                <div class="field">
-                    <div class="control has-icons-left">
-                        <input class=" input has-background-grey-lighter is-medium" type="email" placeholder="Enter Email">
-                            <span class="icon is-left">
-                                <i class="fas fa-envelope is-small has-text-dark"></i>
-                            </span>
+<form class="contactus-form">
+    @csrf
+    <div class="columns">
+        <div class="column is-half">
+            <h1 class="title big-boy is-size-2">CONTACT US</h1>
+            <div class="columns">
+                <div class="column is-half">
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input name="email" class=" input has-background-grey-lighter is-medium" type="email" placeholder="Enter Email">
+                                <span class="icon is-left">
+                                    <i class="fas fa-envelope is-small has-text-dark"></i>
+                                </span>
+                        </div>
                     </div>
                 </div>
-            </div>
-			<div class="column">
-                <div class="field">
-                    <div class="control has-icons-left">
-                        <input class="input has-background-grey-lighter is-medium" type="tel" placeholder="Enter Number">
-                        <span class="icon is-left">
-                        <i class="fas fa-phone-square-alt has-text-dark"></i>
-                        </span>		
-                     </div>
-                </div>
-            </div>
-		</div>
-		<div class="columns">
-			<div class="column is-half">
-                <div class="field">
-                    <div class="control has-icons-left">
-                        <input class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter First Name">
-                        <span class="icon is-left">
-                            <i class="fas fa-user has-text-dark"></i>
-                        </span>
-                    </div>
-                </div>
-            </div>
-			<div class="column is-half">
-            <div class="field">
-                    <div class="control has-icons-left">
-                        <input class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter Last Name">
-                        <span class="icon is-left">
-                            <i class="fas fa-user has-text-dark"></i>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="columns">
                 <div class="column">
                     <div class="field">
                         <div class="control has-icons-left">
-                            <input class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter Address">
+                            <input name="phonenumber" class="input has-background-grey-lighter is-medium" type="tel" placeholder="Enter Number">
                             <span class="icon is-left">
-                                <i class ="fas fa-home has-text-dark"></i>
+                            <i class="fas fa-phone-square-alt has-text-dark"></i>
+                            </span>		
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-half">
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input name="firstname" class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter First Name">
+                            <span class="icon is-left">
+                                <i class="fas fa-user has-text-dark"></i>
                             </span>
                         </div>
                     </div>
                 </div>
-        </div>
-        <div class="columns">
                 <div class="column is-half">
+                <div class="field">
+                        <div class="control has-icons-left">
+                            <input name="lastname" class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter Last Name">
+                            <span class="icon is-left">
+                                <i class="fas fa-user has-text-dark"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <div class="control has-icons-left">
+                                <input name="address" class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter Address">
+                                <span class="icon is-left">
+                                    <i class ="fas fa-home has-text-dark"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="columns">
+                    <div class="column is-half">
+                        <div class="field">
+                            <input name="city" class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter City">
+                        </div>
+                    </div>
+                    <div class="column">
                     <div class="field">
-                        <input class="input has-background-grey-lighter is-medium" type="text" placeholder="Enter City">
+                            <input name="zipcode" class="input has-background-grey-lighter is-medium" type="text" placeholder="Zip Code">
+                        </div>
                     </div>
-                </div>
+            </div>
+            <div class="columns">
                 <div class="column">
-                <div class="field">
-                        <input class="input has-background-grey-lighter is-medium" type="text" placeholder="Zip Code">
+                    <div class="field">
+                        <textarea  name="message" class="textarea has-background-grey-lighter is-medium" placeholder="Message" rows="6"></textarea>
                     </div>
-                </div>
+                    <div class="field">
+                        <label class="checkbox has-text-weight-bold">
+                            <input type="checkbox">
+                                Sign Up For Email Updates 
+                        </label>
+                    </div>    
+                    <button type="submit" class="button is-dark is-medium is-outlined text">SUBMIT</button>   
+                </div> 
+            </div>
         </div>
+        <div class="column is-offset-2">
+            <h1 class="title big-boy is-size-2">CONTACT INFO</h1>	
+        
         <div class="columns">
-            <div class="column">
-                <div class="field">
-                    <textarea class="textarea has-background-grey-lighter is-medium" placeholder="Message" rows="6"></textarea>
-                </div>
-                <div class="field">
-                    <label class="checkbox has-text-weight-bold">
-                        <input type="checkbox">
-                            Sign Up For Email Updates 
-                     </label>
-                </div>    
-                <button class="button is-dark is-medium is-outlined text">SUBMIT</button>   
-            </div> 
+            <div class="column has-icon-left">
+                <h2 class="subtitle"><span class="icon"><i class="fas fa-hard-hat"></i></span>Travis <a href="tel:770-366-4414" class="contact-text has-text-weight-bold">(770)366-4414</a></h2>
+                <h2 class="subtitle"><span class="icon"><i class="fas fa-envelope"></i></span><a class="contact-text" href="mailto:Travis@ddanow.com">Travis@ddanow.com</a></h2>
+            </div>	
+        
         </div>
-	</div>
-	<div class="column is-offset-2">
-		<h1 class="title big-boy is-size-2">CONTACT INFO</h1>	
-	
-	<div class="columns">
-		<div class="column has-icon-left">
-            <h2 class="subtitle"><span class="icon"><i class="fas fa-hard-hat"></i></span>Travis <a href="tel:770-366-4414" class="contact-text has-text-weight-bold">(770)366-4414</a></h2>
-            <h2 class="subtitle"><span class="icon"><i class="fas fa-envelope"></i></span><a class="contact-text" href="mailto:Travis@ddanow.com">Travis@ddanow.com</a></h2>
-		</div>	
-	
-	</div>
-</div>
+    </div>
+</form>
 </div>
 </div>
 

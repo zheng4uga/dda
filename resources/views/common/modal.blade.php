@@ -6,15 +6,16 @@
       <span class="icon">
             <i class="has-text-success fas fa-check"></i>
         </span>  
-        We Serve Your Area
+        We service your area!
       </p>
       <button class="modal-close" aria-label="close"></button>
     </header>
     <section class="modal-card-body">
-        We service your area. Click on estimate to get a rough estimate on your project
+        Please give us a call at <a href="tel:7703664414">(770) 366-4414</a> or fill out our request a quote form
     </section>
     <footer class="modal-card-foot">
       <button class="button is-success ok-btn">Okay</button>
+      <a href="{{url('quote')}}" class="button is-info">Request a quote</a>
     </footer>
   </div>
 </div>
@@ -27,12 +28,12 @@
             <span class="icon">
                 <i class="has-text-danger fas fa-exclamation-circle"></i>
             </span>
-            Out of our service area
+            You are right outside our service area at the moment
             </p>
         <button class="modal-close" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
-            Sorry we currently do not service your area. Please subscribe to get more news
+            Please call us at <a href="tel:7703664414">(770) 366-4414</a> and let's see if we can work something out
         </section>
         <footer class="modal-card-foot">
         <button class="button is-success ok-btn">Okay</button>
