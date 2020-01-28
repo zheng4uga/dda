@@ -85,7 +85,7 @@
     <div class="hero dda-video-hero">
         <div class="hero-body">
             <div class="container">
-            <iframe class="video-shit" width="560" height="315" src="https://www.youtube.com/embed/quJ_hw6bmPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-shit" width="560" height="315" src="{{App\HomepageConfig::find(1)->video_path}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -206,41 +206,20 @@
 </div>
 
 
-    
-
-   
 
     
 
-    
     
 <section class=" section hero has-text-centered">
         <div class="hero-body">
         <h1 class="title big-boy is-size-2">PROJECT GALLERY</h1>
             <div class="container">
                 <div class="carousel_1">
-                    <div><img src="{{url('images/slides/2.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/3.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/1.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/4.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/5.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/6.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/7.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/8.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/9.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/10.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/11.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/12.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/13.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/14.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/15.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/16.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/17.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/18.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/19.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/20.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/21.jpeg')}}"></div>
-                    <div><img src="{{url('images/slides/22.jpeg')}}"></div>
+                    @foreach(App\ProjectGallery::find(1)->directusFiles as $file)
+                        <div>
+                            <img src="{{$file->imagePath()}}" alt="{{$file->title}}">
+                        </div>
+                    @endforeach
                 </div> 
             </div>
         </div>
