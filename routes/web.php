@@ -11,3 +11,13 @@
 |
 */
 Route::view('/','index');
+Route::get('api/counties','CountyController@allCountry');
+Route::get('api/county/available/{id}','CountyController@countyAvailable');
+
+Route::get('api/zipcodes','ZipcodeController@allZipcodes');
+Route::get('api/zipcode/available/{id}','ZipcodeController@zipcodeAvailable');
+
+Route::post('form/contactus','FormController@submitContactUs');
+Route::post('form/estimate','FormController@submitEstimate');
+
+Route::view('quote','estimate');
