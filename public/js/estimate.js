@@ -10,13 +10,16 @@ $(function(){
     $(document).on('submit','.estimate-form',function(e){
         e.preventDefault();
         const data = $(this).serializeArray();
+        $btn = $(this).find('button[type="submit"]');
+        $btn.addClass('is-loading');
         $.ajax({
             url:'form/estimate',
             method:'post',
             data:data,
             success:function(data,status){
                 if(status === 'success'){
-                    alert("Thank you so much for reaching out to us, we will get backt o you as soon as we can.");
+                    $btn.removeClass('is-loading');
+                    alert("Thank you so much for reaching out to us, we will get back to you as soon as we can.");
                 }
             }
         });

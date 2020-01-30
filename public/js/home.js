@@ -90,12 +90,15 @@ $(function(){
     $(document).on('submit','.contactus-form',function(e){
         e.preventDefault();
        const data= $(this).serializeArray();
+       $btn = $(this).find('button[type="submit"]');
+       $btn.addClass("is-loading");
        $.ajax({
            url:'form/contactus',
            data:data,
            method:"post",
            success:function(data,status){
                if(status === 'success'){
+                   $btn.removeClass('is-loading');
                    alert("We have recieve your information, and we'll get in contact with you shortly");
                }
            }
