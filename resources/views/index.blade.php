@@ -149,7 +149,7 @@
                     <section class="section">
                         <div id="para1" class="step-paragraph">
                             <h3 class="space is-size-3 contact-text">Price Agreement</h3>
-                                <p class="text is-size-4">Fill out our <a class="has-text-weight-bold subtitle">Request Quote</a> form and we will get back to you within 24 hours or call us for urgent matters at <a href="tel:770-336-4414" class="subtitle has-text-weight-bold">(770)-336-4414</a>. A final quote will be provided promptly and once it is accepted, we schedule your job based on your timeline.</p>
+                                <p class="text is-size-4">Fill out our <a href="{{url('quote')}}" class="has-text-weight-bold subtitle">Request Quote</a> form and we will get back to you within 24 hours or call us for urgent matters at <a href="tel:770-336-4414" class="subtitle has-text-weight-bold">(770)-336-4414</a>. A final quote will be provided promptly and once it is accepted, we schedule your job based on your timeline.</p>
                         </div>
                         <div id="para2" class="is-hidden step-paragraph">
                             <h3 class="space is-size-3 contact-text">Mark & Expose</h3>
@@ -313,13 +313,7 @@
                 <div class="column">
                     <div class="field">
                         <textarea  name="message" class="textarea has-background-grey-lighter is-medium" placeholder="Message" rows="6"></textarea>
-                    </div>
-                    <div class="field">
-                        <label class="checkbox has-text-weight-bold">
-                            <input type="checkbox">
-                                Sign Up For Email Updates 
-                        </label>
-                    </div>    
+                    </div> 
                     <button type="submit" class="button is-dark is-medium is-outlined text">SUBMIT</button>   
                 </div> 
             </div>
