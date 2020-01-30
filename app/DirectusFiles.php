@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class DirectusFiles extends Model
 {
     protected $table="directus_files";
-    private $imagePrefix = 'cms/public/uploads/dda/originals/';
+    private $imagePrefix = 'cms/public/uploads/_/originals/';
 
     public function imagePath(){
-        return url($this->imagePrefix.$this->filename_disk);
+        return url($this->imagePrefix.$this->filename);
     }
 }
