@@ -8,7 +8,7 @@
         ])
 
 <section class="section has-text-centered">
-    <h3 class="subtitle has-text-weight-bold has-text-dark is-capitalize is-size-3 big-boy">Check if we service your county</h3>
+    <h3 class="subtitle has-text-weight-bold has-text-dark is-capitalize is-size-3 big-boy">Check if we service your zipcode</h3>
                 <div class="columns">
                     <div class="column is-4 is-offset-4">
                     <form>
