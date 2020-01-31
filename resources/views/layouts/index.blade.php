@@ -69,5 +69,9 @@
             @include('common.footer')
         </footer>
         @include('common.modal')
+        @if (config('app.env') === 'prod')
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e32844bf3e98b6e"></script>
+        @endif
     </body>
 </html>
